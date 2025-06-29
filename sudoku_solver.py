@@ -84,7 +84,6 @@ def click_pos(pos):
         return y // CELL_SIZE, x // CELL_SIZE
     return None
 
-# Main loop
 def main():
     global selected, start_time
     running = True
